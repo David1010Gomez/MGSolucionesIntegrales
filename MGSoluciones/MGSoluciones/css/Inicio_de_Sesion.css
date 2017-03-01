@@ -1,0 +1,36 @@
+﻿body {
+}
+
+.Caja {
+    margin-left: 35%;
+    width:30%;
+    border: 0.1px solid #cccccc;
+    margin-top: 10%;
+    height: 200px;
+    background: #308da2;
+    border-radius: 10px;
+    padding:10px;
+}
+.Datos {
+    top: 14%;
+    position: relative;
+    /*border: 1px solid;*/
+    width: 95%;
+    margin-left:2%;
+    text-align:center;
+}
+
+.Texto {
+    font-size: 18px;
+    font-weight: 400;
+    color:white;
+    font-weight: normal;
+    margin-left:10px;
+}
+.input {
+    background: white;
+}
+.button:hover {
+    background:red;
+    
+}
