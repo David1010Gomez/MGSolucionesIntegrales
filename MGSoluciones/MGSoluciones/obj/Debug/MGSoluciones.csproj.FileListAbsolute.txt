@@ -97,3 +97,4 @@ C:\Users\David Gomez\Documents\GitHub\MGSolucionesIntegrales\MGSoluciones\MGSolu
 C:\Users\David Gomez\Documents\GitHub\MGSolucionesIntegrales\MGSoluciones\MGSoluciones\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
 C:\Users\David Gomez\Documents\GitHub\MGSolucionesIntegrales\MGSoluciones\MGSoluciones\obj\Debug\MGSoluciones.dll
 C:\Users\David Gomez\Documents\GitHub\MGSolucionesIntegrales\MGSoluciones\MGSoluciones\obj\Debug\MGSoluciones.pdb
+C:\Users\David Gomez\Documents\GitHub\MGSolucionesIntegrales\MGSoluciones\MGSoluciones\obj\Debug\MGSoluciones.csprojResolveAssemblyReference.cache
