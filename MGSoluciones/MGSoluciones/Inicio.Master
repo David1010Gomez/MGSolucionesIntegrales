@@ -25,13 +25,12 @@
 <body id="page1">
     <form id="form1" runat="server">
         <div>
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-            </asp:ContentPlaceHolder>
+            
             <div class="main">
                 <!-- header -->
                 <header>
                     <div class="wrapper">
-                        <h1><a href="index.html" id="logo">Smart Biz</a></h1>
+                        <h1><a href="Home.aspx" id="logo" style="text-indent:inherit; text-decoration: none; background: none; font-size: 20px;">Mg Soluciones Integrales</a></h1>
                         <%--<form id="search" action="" method="post">
                             <div class="bg">
                                 <input type="submit" class="submit" value="">
@@ -41,24 +40,28 @@
                     </div>
                     <nav>
                         <ul id="menu">
-                            <li class="alpha" id="menu_active"><a href="index.html"><span><span>Home</span></span></a></li>
-                            <li><a href="About.html"><span><span>About</span></span> </a></li>
-                            <li><a href="Projects.html"><span><span>Projects</span></span></a></li>
-                            <li><a href="Contacts.html"><span><span>Contacts</span></span></a></li>
-                            <li class="omega"><a href="Sitemap.html"><span><span>Sitemap</span></span></a></li>
+                            <li class="alpha" id="menu_active"><a href="Home.aspx"><span><span>Inicio</span></span></a></li>
+                            <li><a href="Solicitud.aspx"><span><span>Solicitud</span></span> </a></li>
+                            <li><a href="Projects.html"><span><span>Buscar</span></span></a></li>
+                            <li><a href="Contacts.html"><span><span>Menu 2</span></span></a></li>
+                            <li class="omega"><a href="Sitemap.html"><span><span>Menu 3</span></span></a></li>
                         </ul>
                     </nav>
-                    <div class="wrapper">
-                        <div class="text">
-                            <span class="text1">Effective<span>business solutions</span></span>
+                    <%--<div class="wrapper">
+                        <div class="">
+                            <br />
+                            <br />
+                            <span class="text1" style="background:none;"><span>Ficha de Solicitud</span></span>
                             <a href="#" class="button">read more</a>
                         </div>
-                    </div>
+                    </div>--%>
                 </header>
-                <div class="ic">More Website Templates at TemplateMonster.com!</div>
+                <%--<div class="ic">Hola mundo</div>--%>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
                 <!-- / header -->
                 <!-- content -->
-                <section id="content">
+                <%--<section id="content">
                     <div class="wrapper">
                         <div class="wrapper">
                             <ul class="banners">
@@ -161,12 +164,12 @@
                             </div>
                         </div>
                     </div>
-                </section>
+                </section>--%>
                 <!-- / content -->
                 <!-- footer -->
                 <footer>
-                    <a rel="nofollow" href="http://www.templatemonster.com/" target="_blank">Website template</a> designed by TemplateMonster.com<br/>
-                    <a href="http://www.templates.com/product/3d-models/" target="_blank">3D Models</a> provided by Templates.com
+                    <%--<a rel="nofollow" href="http://www.templatemonster.com/" target="_blank"></a>--%> MG SOLUCIONES INTEGRALES LTDA<br/>
+                    <%--<a href="http://www.templates.com/product/3d-models/" target="_blank">3D Models</a> provided by Templates.com--%>
                 </footer>
                 <!-- / footer -->
             </div>
