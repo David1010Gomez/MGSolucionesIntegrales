@@ -16,7 +16,7 @@ namespace MGSoluciones
 
         protected void Ingresar_Click(object sender, EventArgs e)
         {
-            Response.Redirect("Home.aspx");
+            Response.Redirect("Inicio.aspx");
         }
     }
 }

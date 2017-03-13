@@ -15,7 +15,7 @@
     <script type="text/javascript" src="js/Myriad_Pro_400.font.js"></script>
     <script type="text/javascript" src="js/Myriad_Pro_700.font.js"></script>
     <script type="text/javascript" src="js/Myriad_Pro_600.font.js"></script>
-    <link href="css/Inicio_de_Sesion.css" rel="stylesheet" />
+    <link href="css/Inicio_de_Sesion.css?1.0.1" rel="stylesheet" />
     <!--[if lt IE 9]>
 	<script type="text/javascript" src="http://info.template-help.com/files/ie6_warning/ie6_script_other.js"></script>
 	<script type="text/javascript" src="js/html5.js"></script>
@@ -23,17 +23,43 @@
 </head>
 <body id="page1">
     <form id="ContactForm" runat="server">
-        <div class="Caja">
-            <div class="Datos">
-                <asp:Label CssClass="Texto" runat="server">Cédula: </asp:Label>
-                <input class="input" type="text" style="background: white; margin-left: 60px; width:40%; height: 20px; border-radius: 5px; padding: 5px;"/>
+        <div class="Caja1">
+            <div class="Datos1">
+                MG Soluciones Integrales LTDA. 
+            </div>
+        </div>
+        <br />
+        <div class="Caja2">
+            <div class="Datos2">
+                <table>
+                    <tr>
+                        <td style="width:180px;">
+                            <asp:Label CssClass="Texto" runat="server">Cédula: </asp:Label>
+                        </td>
+                        <td style="width:180px;">
+                            <input class="input" type="text" style="background: white; width:100%; height: 20px; border-radius: 5px; padding: 5px;"/>
+                        </td>
+                    </tr>
+                </table >
+                <table style="margin-top:20px;">
+                    <tr>
+                        <td style="width:180px;">
+                            <asp:Label CssClass="Texto" runat="server">Contraseña: </asp:Label>
+                         </td>
+                        <td style="width:180px;">
+                            <input class="input" type="password" style="background: white;  width:100%; height: 20px; border-radius: 5px; padding: 5px;"/>
+                        </td>
+
+                    </tr>
+                </table>
                 <br />
-                <br />
-                <asp:Label CssClass="Texto" runat="server">Contraseña: </asp:Label>
-                <input class="input" type="text" style="background: white; margin-left: 23px; width:40%; height: 20px; border-radius: 5px; padding: 5px;"/>
-                <br />
-                <br />
-                <asp:Button runat="server" CssClass="button" Text="Ingresar" style="background: white; color:black; float:none; width:40%;" OnClick="Ingresar_Click"/>
+                <table style="margin-top:20px; width:100%;">
+                    <tr>
+                        <td>
+                            <asp:Button runat="server" CssClass="button" Text="Ingresar" style="background: white; color:black; float:none; width:40%;" OnClick="Ingresar_Click"/>
+                        </td>
+                    </tr>
+                </table>
             </div>
         </div>
     </form>

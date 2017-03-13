@@ -1,23 +1,48 @@
 ﻿body {
 }
 
-.Caja {
-    margin-left: 35%;
-    width:30%;
-    border: 0.1px solid #cccccc;
+.Caja1 {
+    margin-left: 40%;
+    width:20%;
+    /*border: 0.1px solid #cccccc;*/
     margin-top: 10%;
+    height: auto;
+    background: #e4e3e3;
+    border-radius: 10px;
+    padding:10px;
+    color:black; 
+    font-size: 28px;
+    font-family:Georgia;
+    font-weight: bold;
+    min-width: 350px; 
+}
+.Datos1 {
+    top: 14%;
+    position: relative;
+    /*border: 1px solid;*/
+    width: 100%;
+    /*margin-left:2%;*/
+    text-align:center;
+}
+
+.Caja2 {
+    margin-left: 40%;
+    width:20%;
+    border: 0.1px solid #cccccc;
+    margin-top: -10px;
     height: 200px;
     background: #308da2;
     border-radius: 10px;
     padding:10px;
+    font: 13px Arial,Helvetica,sans-serif;
+    min-width: 350px; 
+    
 }
-.Datos {
+.Datos2 {
     top: 14%;
     position: relative;
-    /*border: 1px solid;*/
-    width: 95%;
-    margin-left:2%;
     text-align:center;
+    margin-right: 10px;
 }
 
 .Texto {

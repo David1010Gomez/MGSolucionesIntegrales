@@ -1,10 +1,11 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Inicio.Master" AutoEventWireup="true" CodeBehind="Home.aspx.cs" Inherits="MGSoluciones.Bienvenida" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Inicio.Master" AutoEventWireup="true" CodeBehind="Inicio.aspx.cs" Inherits="MGSoluciones.Bienvenida" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <meta charset="utf-8" />
     <link rel="stylesheet" href="css/reset.css" type="text/css" media="all" />
     <link rel="stylesheet" href="css/layout.css" type="text/css" media="all" />
     <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+    <link href="css/fa_icons.css" rel="stylesheet" />
     <script type="text/javascript" src="js/jquery-1.4.2.js"></script>
     <script type="text/javascript" src="js/cufon-yui.js"></script>
     <script type="text/javascript" src="js/cufon-replace.js"></script>
@@ -23,7 +24,7 @@
             <!-- header -->
             <header>
                 <div class="wrapper">
-                    <h1><a href="Home.aspx" id="logo" style="text-indent: inherit; text-decoration: none; background: none; font-size: 20px;">Mg Soluciones Integrales</a></h1>
+                    <h1><a href="Inicio.aspx" id="logo" style="text-indent: inherit; text-decoration: none; background: none; font-size: 20px;">Mg Soluciones Integrales</a></h1>
                     <%--<form id="search" action="" method="post">
                             <div class="bg">
                                 <input type="submit" class="submit" value="">
@@ -31,8 +32,8 @@
                             </div>
                         </form>--%>
                     <div class="bg">
-                        <a href="Inicio_de_Sesion.aspx" class="marker" style="width: 300px; text-decoration: none; float: right; margin-top: 5px;">
-                            <asp:Label runat="server">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cerrar Sesion</asp:Label></a>
+                        <a href="Inicio_de_Sesion.aspx" style="width: 150px; text-decoration: none; float: right; margin-top: 5px;">
+                            <asp:Label runat="server">Cerrar Sesion</asp:Label> &nbsp;&nbsp;<i class="fa fa-sign-out fa-lg"></i></a>
 
                         <%--<asp:button type="submit" class="submit" value=""/>--%>
                         <%--<input type="text" class="input"/>--%>
@@ -40,7 +41,7 @@
                 </div>
                 <nav>
                     <ul id="menu">
-                        <li class="alpha" id="menu_active"><a href="Home.aspx"><span><span>Inicio</span></span></a></li>
+                        <li class="alpha" id="menu_active"><a href="Inicio.aspx"><span><span>Inicio</span></span></a></li>
                         <li><a href="Solicitud.aspx"><span><span>Solicitud</span></span> </a></li>
                         <li><a href="Projects.html"><span><span>Buscar</span></span></a></li>
                         <li><a href="Contacts.html"><span><span>Menu 2</span></span></a></li>
