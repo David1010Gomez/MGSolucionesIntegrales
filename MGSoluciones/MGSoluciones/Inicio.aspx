@@ -44,8 +44,8 @@
                         <li class="alpha" id="menu_active"><a href="Inicio.aspx"><span><span>Inicio</span></span></a></li>
                         <li><a href="Solicitud.aspx"><span><span>Solicitud</span></span> </a></li>
                         <li><a href="Projects.html"><span><span>Buscar</span></span></a></li>
-                        <li><a href="Contacts.html"><span><span>Menu 2</span></span></a></li>
-                        <li class="omega"><a href="Sitemap.html"><span><span>Menu 3</span></span></a></li>
+                        <li><a href="Contacts.html"><span><span>..</span></span></a></li>
+                        <li class="omega"><a href="Sitemap.html"><span><span>..</span></span></a></li>
                     </ul>
                 </nav>
                 <%--<div class="wrapper">
